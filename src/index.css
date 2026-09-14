@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+  
+  body {
+    background-color: #FAFAF9;
+    color: #0F172A;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background-color: #FDE047;
+    color: #451A03;
+  }
+}
+
+/* Custom yellow glow and glass effects */
+.glass-card {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(254, 243, 199, 0.8);
+  box-shadow: 0 4px 20px -2px rgba(245, 158, 11, 0.05);
+}
+
+.glass-card-hover {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-card-hover:hover {
+  transform: translateY(-3px);
+  border-color: rgba(245, 158, 11, 0.4);
+  box-shadow: 0 16px 32px -8px rgba(245, 158, 11, 0.15);
+}
+
+.yellow-badge {
+  background: #FEF9C3;
+  color: #854D0E;
+  border: 1px solid #FDE047;
+}
+
+.yellow-gradient-btn {
+  background: linear-gradient(135deg, #F59E0B 0%, #EAB308 100%);
+  color: #0F172A;
+  font-weight: 600;
+  box-shadow: 0 4px 14px 0 rgba(245, 158, 11, 0.35);
+  transition: all 0.2s ease-in-out;
+}
+
+.yellow-gradient-btn:hover {
+  background: linear-gradient(135deg, #D97706 0%, #CA8A04 100%);
+  color: #FFFFFF;
+  box-shadow: 0 6px 20px 0 rgba(245, 158, 11, 0.45);
+  transform: translateY(-1px);
+}
+
+/* Dot grid background */
+.bg-grid-pattern {
+  background-image: radial-gradient(rgba(245, 158, 11, 0.12) 1.5px, transparent 1.5px);
+  background-size: 24px 24px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F5F5F4;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FCD34D;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #F59E0B;
+}
