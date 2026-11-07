@@ -79,7 +79,7 @@ export const resumeData = {
       company: "testAIn.com",
       url: "https://testAIn.com",
       period: "May 2026 — Oct 2026",
-      status: "Upcoming / Scheduled",
+      status: "Completed",
       description: "Working on cutting-edge machine learning pipelines, testing automation, and model optimization.",
       highlights: [
         "Assisting in the development and optimization of ML models.",
@@ -88,6 +88,21 @@ export const resumeData = {
       ],
       technologies: ["Python", "Machine Learning", "Data Preprocessing", "Feature Engineering", "Model Optimization"]
     }
+    {
+      "role": "Full Stack Development Intern",
+      "company": "BookMyWarehouse",
+      "url": "https://bookmywarehouse.co.in/",
+      "period": "Nov 2026 — Present",
+      "status": "Active",
+      "description": "Driving the end-to-end development of cross-platform web and mobile solutions to streamline warehouse booking and management operations.",
+      "highlights": [
+        "Architecting and developing a responsive, high-performance web platform utilizing the MERN stack to facilitate seamless user workflows.",
+        "Building a cross-platform mobile application using Flutter to expand platform accessibility and enable on-the-go inventory management.",
+        "Integrating Python-based backend services and RESTful APIs to support robust data processing and system scalability.",
+        "Designing intuitive UI/UX prototypes and translating them into production-ready interfaces to ensure a cohesive experience across web and mobile."
+      ],
+  "technologies": [ "Python", "MERN", "UI/UX design", "Flutter" ]
+}
   ],
   skills: {
     categories: [
